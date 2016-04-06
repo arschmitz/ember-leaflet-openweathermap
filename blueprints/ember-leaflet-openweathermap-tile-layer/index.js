@@ -9,6 +9,6 @@ module.exports = {
    // to us
   },
   afterInstall: function(options) {
-   return this.addBowerPackageToProject('leaflet-openweathermap');
+   return this.addBowerPackageToProject('buche/leaflet-openweathermap');
   }
 };
