@@ -6,7 +6,7 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-    app.import('vendor/openweathermap/dist/leaflet-openweathermap.js');
-    app.import('vendor/openweathermap/dist/leaflet-openweathermap.css');
+    app.import(app.bowerDirectory + 'leaflet-openweathermap/leaflet-openweathermap.js');
+    app.import(app.bowerDirectory + 'leaflet-openweathermap/leaflet-openweathermap.css');
   }
 };
