@@ -20,8 +20,8 @@ let OwmLayerComponent = TileLayer.extend({
     let owmType = this.get('owmType');
     let options = this.get('options');
 
-    if ( options.tileProxy ) {
-      this.L.OWM.baseUrl = options.baseUrl;
+    if ( options.baseUrl ) {
+      this.L.OWM.prototype.baseUrl = options.baseUrl;
       delete options.baseUrl;
     }
     assert(`You need to specify the OWM layer type as a positional param`, !!owmType);
