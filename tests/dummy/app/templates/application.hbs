@@ -1,3 +1,15 @@
 <h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+<p>
+  <label>
+    {{input type="checkbox" checked=showWind}}
+    Show wind
+  </label>
+</p>
+
+{{#leaflet-map zoom=5 lat=39.7680448 lng=-6.6366858}}
+  {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
+  {{#if showWind}}
+    {{owm-layer "wind" opacity=0.5}}
+  {{/if}}
+{{/leaflet-map}}

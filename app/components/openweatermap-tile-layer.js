@@ -1,1 +1,0 @@
-export { default } from 'ember-leaflet-openweathermap/components/openweatermap-tile-layer';
