@@ -69,7 +69,7 @@ The OWM layer type to display
 {{/leaflet-map}}
 ```
 
-### For more information and usage example see (https://github.com/buche/leaflet-openweathermap/tree/master)[leaflet-openweathermap]
+### For more information and usage example see [leaflet-openweathermap](https://github.com/buche/leaflet-openweathermap/tree/master)
 
 ## Running
 
