@@ -1,0 +1,1 @@
+export { default } from 'ember-leaflet-openweathermap/components/owm-layer';
