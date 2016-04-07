@@ -5,8 +5,6 @@ const { assert } = Ember;
 
 let OwmLayerComponent = TileLayer.extend({
 
-  url: '',
-
   leafletOptions: [
     'showLegend', 'legendImagePath', 'legendPosition',
     'appId', 'type', 'lang', 'minZoom', 'interval', 'progressControl', 'imageLoadingUrl',
