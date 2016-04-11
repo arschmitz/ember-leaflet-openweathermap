@@ -9,6 +9,6 @@ module.exports = {
    // to us
   },
   afterInstall: function(options) {
-   return this.addBowerPackageToProject( 'leaflet-openweathermap', 'git@github.com:arschmitz/leaflet-openweathermap.git#280c4b8' );
+   return this.addBowerPackageToProject( 'leaflet-openweathermap', 'git@github.com:arschmitz/leaflet-openweathermap.git#abff397' );
   }
 };
