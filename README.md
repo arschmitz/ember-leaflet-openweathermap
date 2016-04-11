@@ -1,5 +1,8 @@
 # Ember-leaflet-openweathermap
 
+[![Build Status](https://travis-ci.org/arschmitz/ember-leaflet-openweathermap.svg?branch=master)](https://travis-ci.org/arschmitz/ember-leaflet-openweathermap)
+[![npm version](https://badge.fury.io/js/ember-leaflet-openweathermap.svg)](https://badge.fury.io/js/ember-leaflet-openweathermap)
+
 An ember addon for including OpenWeatherMap's layers and OWM's current city/station data in ember-leaflet based maps without hassle.
 
 OpenWeatherMap is a service for providion weather related data for use on an OpenLayers based map
